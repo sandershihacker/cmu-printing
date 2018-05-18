@@ -4,16 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DisplayMessageActivity">
+    tools:context=".PrintActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:id="@+id/andrewIDTextView"
+        android:layout_width="186dp"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
-        android:textAppearance="@android:style/TextAppearance.Material.Large"
-        android:textColor="@color/colorAccent"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
         android:textStyle="bold"
         android:typeface="sans"
         app:fontFamily="monospace"
